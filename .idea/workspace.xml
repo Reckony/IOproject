@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1319b8a-f475-4f01-bf4e-8d1d7b6283b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs14.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers/CsvHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/CsvHandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/Database_splitter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,28 +12,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Datasets/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
+            <state relative-caret-position="2080">
               <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Helpers/CsvHandler.py">
+        <entry file="file://$PROJECT_DIR$/Helpers/Helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1778">
+            <state relative-caret-position="2288">
               <caret line="143" selection-start-line="143" selection-end-line="143" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -89,11 +77,6 @@
               <item name="IOproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="IOproject" type="462c0819:PsiDirectoryNode" />
               <item name="Helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IOproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IOproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectsRepo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IOproject" type="b2602c69:ProjectViewProjectNode" />
@@ -214,20 +197,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46506023" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46506023" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.58536583" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.18651363" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18554217" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -236,7 +218,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Database_splitter.py">
+    <entry file="file://$PROJECT_DIR$/Helpers/Database_splitter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
@@ -317,16 +299,6 @@
     <entry file="file://$PROJECT_DIR$/ObjectsRepo/TokenizedSongs14.pkl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Helpers/CsvHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1778">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -334,9 +306,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Helpers/Helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Datasets/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
+        <state relative-caret-position="2080">
           <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
         </state>
       </provider>

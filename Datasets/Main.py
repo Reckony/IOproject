@@ -1,4 +1,4 @@
-from Helpers import Helper as cvh
+from Helpers import DataOperator as cvh
 
 index_artist = 0
 index_title = 1
