@@ -11,6 +11,7 @@ from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet
 import itertools
 import string
+from wordcloud import WordCloud
 
 
 index_artist = 0
@@ -232,6 +233,32 @@ def get_interesting_words(freq_dict):
 
     return new_freq_dict
 
-# def create_wordcloud_per_artist():
 
+def create_wordcloud_per_artist(most_frequent_words_per_artist_dict):
+    wordclouds_list = []
+
+
+def create_wordcloud(dict_to_create_wordcloud):
+
+    for key, value in dict_to_create_wordcloud.items():
+        artist = key
+        text = value
+        # for data in text:
+        #     word = data[0]
+        #     freq = data[1]
+        #     for i in range(freq):
+        #         new_text = ''
+        #         new_text = new_text + f' {word}'
+
+        text_list = []
+        for data in text:
+            word = data[0]
+            freq = data[1]
+            for i in range(freq):
+                text_list.append(word)
+        new_text = ' '.join(text_list)
+
+        wordcloud = WordCloud(collocations=False, background_color="white", max_font_size=50, max_words=100).generate(new_text)
+        wordcloud.to_file("/Users/reckony/Desktop/UGSTUDIA/IOproject/Wordclouds/" + f'Wordcloud_{artist}.png')
+    return True
 

@@ -225,7 +225,6 @@ if __name__ == "__main__":
     # for i in range(len(freq_dicts_list)):
     #     cvh.save_object_to_file(freq_dicts_list[i], filenames_frequent_words[i])
 
-    freq = cvh.load_object("MostFrequentWords1.pkl")
-    for key, value in freq.items():
-        print(key, value)
+    freq = cvh.load_object("MostFrequentWords14.pkl")  # 1, 2, 5, 8, 12, 14
+    cvh.create_wordcloud(freq)
 

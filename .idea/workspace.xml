@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1319b8a-f475-4f01-bf4e-8d1d7b6283b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Wordclouds/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/IOproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IOproject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Datasets/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Helpers/DataOperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/DataOperator.py" afterDir="false" />
     </list>
@@ -16,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Datasets/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
+            <state relative-caret-position="146">
+              <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
             </state>
           </provider>
         </entry>
@@ -25,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Helpers/DataOperator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="222" column="16" selection-start-line="222" selection-start-column="16" selection-end-line="222" selection-end-column="16" />
+            <state relative-caret-position="186">
+              <caret line="260" selection-start-line="260" selection-end-line="260" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -93,7 +96,7 @@
             <path>
               <item name="IOproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="IOproject" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectsRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="Wordclouds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IOproject" type="b2602c69:ProjectViewProjectNode" />
@@ -220,26 +223,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="34" width="1345" height="789" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25981873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2912482" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.58536583" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34146342" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.58536583" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22094691" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.12625538" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Helpers/DataOperator.py</url>
+          <line>260</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Helpers/Database_splitter.py">
@@ -370,17 +383,32 @@
     <entry file="file://$PROJECT_DIR$/ObjectsRepo/CombinedSongs1.pkl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/WordcloudsWordcloud_ABBA.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordcloudsWordcloud_Ace Of Base.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordcloudsWordcloud_Aerosmith.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wordclouds/Wordcloud_Adam Sandler.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wordclouds/Wordcloud_ABBA.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Datasets/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
+        <state relative-caret-position="146">
+          <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Helpers/DataOperator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="222" column="16" selection-start-line="222" selection-start-column="16" selection-end-line="222" selection-end-column="16" />
+        <state relative-caret-position="186">
+          <caret line="260" selection-start-line="260" selection-end-line="260" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
