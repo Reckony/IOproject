@@ -2,7 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1319b8a-f475-4f01-bf4e-8d1d7b6283b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Database_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/Database_splitter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helpers/DataOperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/DataOperator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs10.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs10.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs11.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs11.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs12.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs12.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs13.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs13.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs14.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs14.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs6.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs6.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs7.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs7.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs8.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs8.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs9.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/FilteredSongs9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs10.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs10.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs11.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs11.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs12.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs12.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs13.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs13.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs14.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs14.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs6.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs6.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs7.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs7.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs8.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs8.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs9.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/LemmatizedSongs9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/SongsDict1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/SongsDict1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/SongsDict10.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/SongsDict10.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/SongsDict11.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/SongsDict11.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/SongsDict12.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/SongsDict12.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/SongsDict13.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/SongsDict13.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/SongsDict14.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/SongsDict14.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/SongsDict2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/SongsDict2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/SongsDict3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/SongsDict3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/SongsDict4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/SongsDict4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/SongsDict5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/SongsDict5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/SongsDict6.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/SongsDict6.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/SongsDict7.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/SongsDict7.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/SongsDict8.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/SongsDict8.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/SongsDict9.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/SongsDict9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs10.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs10.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs11.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs11.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs12.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs12.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs13.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs13.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs14.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs14.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs2.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs2.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs3.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs3.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs4.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs4.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs5.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs5.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs6.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs6.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs7.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs7.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs8.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs8.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs9.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/TokenizedSongs9.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectsRepo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectsRepo/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +74,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Datasets/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2080">
-              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+            <state relative-caret-position="365">
+              <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Helpers/Helper.py">
+        <entry file="file://$PROJECT_DIR$/Helpers/DataOperator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2288">
-              <caret line="143" selection-start-line="143" selection-end-line="143" />
+            <state relative-caret-position="319">
+              <caret line="196" column="30" selection-start-line="196" selection-start-column="30" selection-end-line="196" selection-end-column="30" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -51,13 +110,30 @@
         <option value="$PROJECT_DIR$/Database_splitter.py" />
         <option value="$PROJECT_DIR$/Helpers/CsvHandler.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs1.pkl" />
+        <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs7.pkl" />
+        <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs6.pkl" />
+        <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs5.pkl" />
+        <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs4.pkl" />
+        <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs3.pkl" />
+        <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs2.pkl" />
+        <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs14.pkl" />
+        <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs13.pkl" />
+        <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs12.pkl" />
+        <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs11.pkl" />
+        <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs10.pkl" />
+        <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs9.pkl" />
+        <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs8.pkl" />
+        <option value="$PROJECT_DIR$/Helpers/DataOperator.py" />
         <option value="$PROJECT_DIR$/Datasets/Main.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="32" />
+    <option name="y" value="34" />
+    <option name="width" value="1345" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -65,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,7 +151,7 @@
             <path>
               <item name="IOproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="IOproject" type="462c0819:PsiDirectoryNode" />
-              <item name="Helpers" type="462c0819:PsiDirectoryNode" />
+              <item name="ObjectsRepo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IOproject" type="b2602c69:ProjectViewProjectNode" />
@@ -91,12 +166,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Helpers" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -196,20 +277,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="32" y="34" width="1345" height="789" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25981873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46506023" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2912482" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.58536583" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18554217" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22094691" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -226,11 +308,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Datasets/output_1.csv">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -272,16 +354,8 @@
     <entry file="file://$PROJECT_DIR$/ObjectsRepo/SongsDict13.pkl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ObjectsRepo/SongsDict14.pkl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ObjectsRepo/SongsDict15.pkl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/SongsDict15.pkl" />
     <entry file="file://$PROJECT_DIR$/ObjectsRepo/SongsDict1.pkl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ObjectsRepo/SongsDict2.pkl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ObjectsRepo/SongsDict6.pkl">
@@ -301,15 +375,63 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="96">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Helpers/Helper.py">
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/FilteredSongs7.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/FilteredSongs5.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/FilteredSongs4.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/FilteredSongs3.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/FilteredSongs2.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/FilteredSongs14.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/FilteredSongs13.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/FilteredSongs12.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/FilteredSongs11.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/FilteredSongs10.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/FilteredSongs9.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/FilteredSongs8.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/FilteredSongs6.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/FilteredSongs1.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsRepo/CombinedSongs1.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helpers/DataOperator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2288">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        <state relative-caret-position="319">
+          <caret line="196" column="30" selection-start-line="196" selection-start-column="30" selection-end-line="196" selection-end-column="30" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -318,8 +440,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Datasets/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2080">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        <state relative-caret-position="365">
+          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
         </state>
       </provider>
     </entry>

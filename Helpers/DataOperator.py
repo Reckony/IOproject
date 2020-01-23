@@ -9,6 +9,8 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet
+import itertools
+import string
 
 
 index_artist = 0
@@ -126,8 +128,9 @@ def get_wordnet_pos(word):
     return tag_dict.get(tag, wordnet.NOUN)
 
 
-def remove_stopwords(tokenized_dict):
+def remove_stopwords_and_noise(tokenized_dict):
     stop_words = set(stopwords.words("english"))
+    punctuation = string.punctuation
     dict_no_stopwords = {}
     for key, value in tokenized_dict.items():
         tokenized_songs = value
@@ -136,10 +139,60 @@ def remove_stopwords(tokenized_dict):
         for tokenized_song in tokenized_songs:
             filtered_song = []
             for word in tokenized_song:
-                if word not in stop_words:
+                if word not in stop_words and word not in punctuation:
                     filtered_song.append(word)
             songs_text_without_stopwords.append(filtered_song)
         dict_no_stopwords[artist_name] = songs_text_without_stopwords
     return dict_no_stopwords
 
+
+def get_word_frequency_plot(tokenized_text, chart_title):
+    word_frequency_plot = FreqDist(tokenized_text)
+    word_frequency_plot.plot(20, title=chart_title, cumulative=False)
+
+    return word_frequency_plot
+
+
+def get_frequency_list(tokenized_text):
+    word_frequency = FreqDist(tokenized_text)
+
+    return list(word_frequency.most_common(20))
+
+
+def get_cosine_similarity(tokenized_filtered_text1, tokenized_filtered_text2):
+    text1 = []
+    text2 = []
+
+    text1_set = set(tokenized_filtered_text1)
+    text2_set = set(tokenized_filtered_text2)
+
+    rvector = text1_set.union(text2_set)
+    for w in rvector:
+        if w in text1_set:
+            text1.append(1)  # create a vector
+        else:
+            text1.append(0)
+        if w in text2_set:
+            text2.append(1)
+        else:
+            text2.append(0)
+
+    c = 0
+    # cosine formula
+    for i in range(len(rvector)):
+        c += text1[i] * text2[i]
+    cosine = c / float((sum(text1) * sum(text2)) ** 0.5)
+
+    return cosine
+
+
+def get_all_words(dict_to_combine_its_values):
+    dict_combined_songs = {}
+    for key, value in dict_to_combine_its_values.items():
+        artist = key
+        songs_list = value
+        combined_songs = list(itertools.chain.from_iterable(songs_list))
+        dict_combined_songs[artist] = combined_songs
+
+    return dict_combined_songs
 
