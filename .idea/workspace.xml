@@ -13,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Datasets/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="184" selection-start-line="184" selection-end-line="184" />
+            <state relative-caret-position="335">
+              <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Helpers/DataOperator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="213" column="42" lean-forward="true" selection-start-line="213" selection-start-column="42" selection-end-line="213" selection-end-column="42" />
+            <state relative-caret-position="351">
+              <caret line="222" column="16" selection-start-line="222" selection-start-column="16" selection-end-line="222" selection-end-column="16" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -66,8 +66,8 @@
         <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs10.pkl" />
         <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs9.pkl" />
         <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs8.pkl" />
-        <option value="$PROJECT_DIR$/Helpers/DataOperator.py" />
         <option value="$PROJECT_DIR$/Datasets/Main.py" />
+        <option value="$PROJECT_DIR$/Helpers/DataOperator.py" />
       </list>
     </option>
   </component>
@@ -220,13 +220,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="34" width="1345" height="789" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25981873" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25981873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2912482" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2912482" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.58536583" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -369,20 +370,20 @@
     <entry file="file://$PROJECT_DIR$/ObjectsRepo/CombinedSongs1.pkl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Helpers/DataOperator.py">
+    <entry file="file://$PROJECT_DIR$/Datasets/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="213" column="42" lean-forward="true" selection-start-line="213" selection-start-column="42" selection-end-line="213" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="335">
+          <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Datasets/Main.py">
+    <entry file="file://$PROJECT_DIR$/Helpers/DataOperator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        <state relative-caret-position="351">
+          <caret line="222" column="16" selection-start-line="222" selection-start-column="16" selection-end-line="222" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

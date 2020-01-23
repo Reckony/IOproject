@@ -183,7 +183,7 @@ if __name__ == "__main__":
     # for i in range(len(cleanlist)):
     #     cvh.save_object_to_file(cleanlist[i], filesnames[i])
 
-    clean_dict1 = cvh.load_object("CleanCombinedSongs1.pkl")
+    # clean_dict1 = cvh.load_object("CleanCombinedSongs1.pkl")
     # clean_dict2 = cvh.load_object("CleanCombinedSongs2.pkl")
     # clean_dict3 = cvh.load_object("CleanCombinedSongs3.pkl")
     # clean_dict4 = cvh.load_object("CleanCombinedSongs4.pkl")
@@ -197,25 +197,35 @@ if __name__ == "__main__":
     # clean_dict12 = cvh.load_object("CleanCombinedSongs12.pkl")
     # clean_dict13 = cvh.load_object("CleanCombinedSongs13.pkl")
     # clean_dict14 = cvh.load_object("CleanCombinedSongs14.pkl")
+    #
+    # clean_song_dicts_list = [
+    #     clean_dict1,
+    #     clean_dict2,
+    #     clean_dict3,
+    #     clean_dict4,
+    #     clean_dict5,
+    #     clean_dict6,
+    #     clean_dict7,
+    #     clean_dict8,
+    #     clean_dict9,
+    #     clean_dict10,
+    #     clean_dict11,
+    #     clean_dict12,
+    #     clean_dict13,
+    #     clean_dict14
+    # ]
+    #
+    # filenames_frequent_words = cvh.create_list_of_given_names("MostFrequentWords", ".pkl")
+    #
+    # freq_dicts_list = []
+    # for clean_dict in clean_song_dicts_list:
+    #     freq = cvh.get_frequency_list(clean_dict)
+    #     freq_dict = cvh.get_interesting_words(freq)
+    #     freq_dicts_list.append(freq_dict)
+    # for i in range(len(freq_dicts_list)):
+    #     cvh.save_object_to_file(freq_dicts_list[i], filenames_frequent_words[i])
 
-    clean_song_dicts_list = [
-       clean_dict1,
-        # clean_dict2,
-        # clean_dict3,
-        # clean_dict4,
-        # clean_dict5,
-        # clean_dict6,
-        # clean_dict7,
-        # clean_dict8,
-        # clean_dict9,
-        # clean_dict10,
-        # clean_dict11,
-        # clean_dict12,
-        # clean_dict13,
-        # clean_dict14
-    ]
-
-    freq = cvh.get_frequency_list(clean_dict1)
-    print(freq["Adele"])
-
+    freq = cvh.load_object("MostFrequentWords1.pkl")
+    for key, value in freq.items():
+        print(key, value)
 

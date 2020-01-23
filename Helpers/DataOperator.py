@@ -217,3 +217,21 @@ def remove_noise(dict_to_clean):
 
     return clean_dict
 
+
+def get_interesting_words(freq_dict):
+    new_freq_dict = {}
+    for key, value in freq_dict.items():
+        artist = key
+        word_list = value
+        new_word_list = []
+        for info in word_list:
+            if len(info[0]) > 3:
+                new_word_list.append(info)
+        new_word_list = new_word_list[:20]
+        new_freq_dict[artist] = new_word_list
+
+    return new_freq_dict
+
+# def create_wordcloud_per_artist():
+
+
