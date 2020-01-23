@@ -160,9 +160,10 @@ def get_frequency_list(dict_to_get_word_frequency_for_artists):
     for key, value in dict_to_get_word_frequency_for_artists.items():
         artist = key
         song_text = value
+        song_text = [x.lower() for x in song_text]
         word_frequency = FreqDist(song_text)
-        most_common_20 = list(word_frequency.most_common(20))
-        most_frequent_words_dict[artist] = most_common_20
+        most_common_50 = list(word_frequency.most_common(50))
+        most_frequent_words_dict[artist] = most_common_50
 
     return most_frequent_words_dict
 
@@ -210,6 +211,7 @@ def remove_noise(dict_to_clean):
     for key, value in dict_to_clean.items():
         artist = key
         songs = value
+        songs = [x.lower() for x in songs]
         clean_songs = [w for w in songs if w not in noise1 and w not in noise2]
         clean_dict[artist] = clean_songs
 

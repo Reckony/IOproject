@@ -142,44 +142,80 @@ if __name__ == "__main__":
     # for i in range(len(combined_songs_dicts_list)):
     #     cvh.save_object_to_file(combined_songs_dicts_list[i], combined_songs_dict_filenames[i])
 
+    # combined_dict1 = cvh.load_object("CombinedSongs1.pkl")
+    # combined_dict2 = cvh.load_object("CombinedSongs2.pkl")
+    # combined_dict3 = cvh.load_object("CombinedSongs3.pkl")
+    # combined_dict4 = cvh.load_object("CombinedSongs4.pkl")
+    # combined_dict5 = cvh.load_object("CombinedSongs5.pkl")
+    # combined_dict6 = cvh.load_object("CombinedSongs6.pkl")
+    # combined_dict7 = cvh.load_object("CombinedSongs7.pkl")
+    # combined_dict8 = cvh.load_object("CombinedSongs8.pkl")
+    # combined_dict9 = cvh.load_object("CombinedSongs9.pkl")
+    # combined_dict10 = cvh.load_object("CombinedSongs10.pkl")
+    # combined_dict11 = cvh.load_object("CombinedSongs11.pkl")
+    # combined_dict12 = cvh.load_object("CombinedSongs12.pkl")
+    # combined_dict13 = cvh.load_object("CombinedSongs13.pkl")
+    # combined_dict14 = cvh.load_object("CombinedSongs14.pkl")
+    #
+    # combined_song_dicts_list = [
+    #     combined_dict1,
+    #     combined_dict2,
+    #     combined_dict3,
+    #     combined_dict4,
+    #     combined_dict5,
+    #     combined_dict6,
+    #     combined_dict7,
+    #     combined_dict8,
+    #     combined_dict9,
+    #     combined_dict10,
+    #     combined_dict11,
+    #     combined_dict12,
+    #     combined_dict13,
+    #     combined_dict14
+    # ]
+    #
+    # filesnames = cvh.create_list_of_given_names("CleanCombinedSongs", ".pkl")
+    # cleanlist = []
+    # for combined_dict in combined_song_dicts_list:
+    #     clear_dict = cvh.remove_noise(combined_dict)
+    #     cleanlist.append(clear_dict)
+    #
+    # for i in range(len(cleanlist)):
+    #     cvh.save_object_to_file(cleanlist[i], filesnames[i])
 
-    combined_dict1 = cvh.load_object("CombinedSongs1.pkl")
-    combined_dict2 = cvh.load_object("CombinedSongs2.pkl")
-    combined_dict3 = cvh.load_object("CombinedSongs3.pkl")
-    combined_dict4 = cvh.load_object("CombinedSongs4.pkl")
-    combined_dict5 = cvh.load_object("CombinedSongs5.pkl")
-    combined_dict6 = cvh.load_object("CombinedSongs6.pkl")
-    combined_dict7 = cvh.load_object("CombinedSongs7.pkl")
-    combined_dict8 = cvh.load_object("CombinedSongs8.pkl")
-    combined_dict9 = cvh.load_object("CombinedSongs9.pkl")
-    combined_dict10 = cvh.load_object("CombinedSongs10.pkl")
-    combined_dict11 = cvh.load_object("CombinedSongs11.pkl")
-    combined_dict12 = cvh.load_object("CombinedSongs12.pkl")
-    combined_dict13 = cvh.load_object("CombinedSongs13.pkl")
-    combined_dict14 = cvh.load_object("CombinedSongs14.pkl")
+    clean_dict1 = cvh.load_object("CleanCombinedSongs1.pkl")
+    # clean_dict2 = cvh.load_object("CleanCombinedSongs2.pkl")
+    # clean_dict3 = cvh.load_object("CleanCombinedSongs3.pkl")
+    # clean_dict4 = cvh.load_object("CleanCombinedSongs4.pkl")
+    # clean_dict5 = cvh.load_object("CleanCombinedSongs5.pkl")
+    # clean_dict6 = cvh.load_object("CleanCombinedSongs6.pkl")
+    # clean_dict7 = cvh.load_object("CleanCombinedSongs7.pkl")
+    # clean_dict8 = cvh.load_object("CleanCombinedSongs8.pkl")
+    # clean_dict9 = cvh.load_object("CleanCombinedSongs9.pkl")
+    # clean_dict10 = cvh.load_object("CleanCombinedSongs10.pkl")
+    # clean_dict11 = cvh.load_object("CleanCombinedSongs11.pkl")
+    # clean_dict12 = cvh.load_object("CleanCombinedSongs12.pkl")
+    # clean_dict13 = cvh.load_object("CleanCombinedSongs13.pkl")
+    # clean_dict14 = cvh.load_object("CleanCombinedSongs14.pkl")
 
-    combined_song_dicts_list = [
-        combined_dict1,
-        combined_dict2,
-        combined_dict3,
-        combined_dict4,
-        combined_dict5,
-        combined_dict6,
-        combined_dict7,
-        combined_dict8,
-        combined_dict9,
-        combined_dict10,
-        combined_dict11,
-        combined_dict12,
-        combined_dict13,
-        combined_dict14
+    clean_song_dicts_list = [
+       clean_dict1,
+        # clean_dict2,
+        # clean_dict3,
+        # clean_dict4,
+        # clean_dict5,
+        # clean_dict6,
+        # clean_dict7,
+        # clean_dict8,
+        # clean_dict9,
+        # clean_dict10,
+        # clean_dict11,
+        # clean_dict12,
+        # clean_dict13,
+        # clean_dict14
     ]
 
-    filesnames = cvh.create_list_of_given_names("CleanCombinedSongs", ".pkl")
-    cleanlist = []
-    for combined_dict in combined_song_dicts_list:
-        clear_dict = cvh.remove_noise(combined_dict)
-        cleanlist.append(clear_dict)
+    freq = cvh.get_frequency_list(clean_dict1)
+    print(freq["Adele"])
 
-    for i in range(len(cleanlist)):
-        cvh.save_object_to_file(cleanlist[i], filesnames[i])
+
