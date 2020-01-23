@@ -19,6 +19,8 @@ index_link = 2
 index_text = 3
 
 objects_repo_location = "/Users/reckony/Desktop/UGSTUDIA/IOproject/ObjectsRepo/"
+noise1 = ['ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before’,' 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than']
+noise2 = string.punctuation
 
 
 def get_data(filepath):
@@ -153,10 +155,16 @@ def get_word_frequency_plot(tokenized_text, chart_title):
     return word_frequency_plot
 
 
-def get_frequency_list(tokenized_text):
-    word_frequency = FreqDist(tokenized_text)
+def get_frequency_list(dict_to_get_word_frequency_for_artists):
+    most_frequent_words_dict = {}
+    for key, value in dict_to_get_word_frequency_for_artists.items():
+        artist = key
+        song_text = value
+        word_frequency = FreqDist(song_text)
+        most_common_20 = list(word_frequency.most_common(20))
+        most_frequent_words_dict[artist] = most_common_20
 
-    return list(word_frequency.most_common(20))
+    return most_frequent_words_dict
 
 
 def get_cosine_similarity(tokenized_filtered_text1, tokenized_filtered_text2):
@@ -195,4 +203,15 @@ def get_all_words(dict_to_combine_its_values):
         dict_combined_songs[artist] = combined_songs
 
     return dict_combined_songs
+
+
+def remove_noise(dict_to_clean):
+    clean_dict = {}
+    for key, value in dict_to_clean.items():
+        artist = key
+        songs = value
+        clean_songs = [w for w in songs if w not in noise1 and w not in noise2]
+        clean_dict[artist] = clean_songs
+
+    return clean_dict
 
