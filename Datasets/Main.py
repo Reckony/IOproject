@@ -47,21 +47,21 @@ if __name__ == "__main__":
     #     song_dict14
     # ]
 
-    # song_dict_tokenized1 = cvh.load_object("TokenizedSongs1.pkl")
-    # song_dict_tokenized2 = cvh.load_object("TokenizedSongs2.pkl")
-    # song_dict_tokenized3 = cvh.load_object("TokenizedSongs3.pkl")
-    # song_dict_tokenized4 = cvh.load_object("TokenizedSongs4.pkl")
-    # song_dict_tokenized5 = cvh.load_object("TokenizedSongs5.pkl")
-    # song_dict_tokenized6 = cvh.load_object("TokenizedSongs6.pkl")
-    # song_dict_tokenized7 = cvh.load_object("TokenizedSongs7.pkl")
-    # song_dict_tokenized8 = cvh.load_object("TokenizedSongs8.pkl")
-    # song_dict_tokenized9 = cvh.load_object("TokenizedSongs9.pkl")
-    # song_dict_tokenized10 = cvh.load_object("TokenizedSongs10.pkl")
-    # song_dict_tokenized11 = cvh.load_object("TokenizedSongs11.pkl")
-    # song_dict_tokenized12 = cvh.load_object("TokenizedSongs12.pkl")
-    # song_dict_tokenized13 = cvh.load_object("TokenizedSongs13.pkl")
-    # song_dict_tokenized14 = cvh.load_object("TokenizedSongs14.pkl")
-    #
+    song_dict_tokenized1 = cvh.load_object("TokenizedSongs1.pkl")
+    song_dict_tokenized2 = cvh.load_object("TokenizedSongs2.pkl")
+    song_dict_tokenized3 = cvh.load_object("TokenizedSongs3.pkl")
+    song_dict_tokenized4 = cvh.load_object("TokenizedSongs4.pkl")
+    song_dict_tokenized5 = cvh.load_object("TokenizedSongs5.pkl")
+    song_dict_tokenized6 = cvh.load_object("TokenizedSongs6.pkl")
+    song_dict_tokenized7 = cvh.load_object("TokenizedSongs7.pkl")
+    song_dict_tokenized8 = cvh.load_object("TokenizedSongs8.pkl")
+    song_dict_tokenized9 = cvh.load_object("TokenizedSongs9.pkl")
+    song_dict_tokenized10 = cvh.load_object("TokenizedSongs10.pkl")
+    song_dict_tokenized11 = cvh.load_object("TokenizedSongs11.pkl")
+    song_dict_tokenized12 = cvh.load_object("TokenizedSongs12.pkl")
+    song_dict_tokenized13 = cvh.load_object("TokenizedSongs13.pkl")
+    song_dict_tokenized14 = cvh.load_object("TokenizedSongs14.pkl")
+
     # tokenized_song_dicts_list = [
     #     song_dict_tokenized1,
     #     song_dict_tokenized2,
@@ -225,6 +225,12 @@ if __name__ == "__main__":
     # for i in range(len(freq_dicts_list)):
     #     cvh.save_object_to_file(freq_dicts_list[i], filenames_frequent_words[i])
 
-    freq = cvh.load_object("MostFrequentWords14.pkl")  # 1, 2, 5, 8, 12, 14
-    cvh.create_wordcloud(freq)
+    # freq = cvh.load_object("MostFrequentWords14.pkl")  # 1, 2, 5, 8, 12, 14
+    # cvh.create_wordcloud(freq)
+
+    #
+    # joined = cvh.join_text(song_dict_tokenized14)
+    # cvh.save_object_to_file(joined, "JoinedSongText14.pkl")
+
+
 

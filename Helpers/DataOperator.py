@@ -6,7 +6,6 @@ from nltk.tokenize import word_tokenize
 from nltk.probability import FreqDist
 import matplotlib.pyplot as plt
 from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet
 import itertools
@@ -234,22 +233,11 @@ def get_interesting_words(freq_dict):
     return new_freq_dict
 
 
-def create_wordcloud_per_artist(most_frequent_words_per_artist_dict):
-    wordclouds_list = []
-
-
 def create_wordcloud(dict_to_create_wordcloud):
 
     for key, value in dict_to_create_wordcloud.items():
         artist = key
         text = value
-        # for data in text:
-        #     word = data[0]
-        #     freq = data[1]
-        #     for i in range(freq):
-        #         new_text = ''
-        #         new_text = new_text + f' {word}'
-
         text_list = []
         for data in text:
             word = data[0]
@@ -262,3 +250,16 @@ def create_wordcloud(dict_to_create_wordcloud):
         wordcloud.to_file("/Users/reckony/Desktop/UGSTUDIA/IOproject/Wordclouds/" + f'Wordcloud_{artist}.png')
     return True
 
+
+def join_text(tokenized_dict):
+    joined_dict = {}
+    for key, value in tokenized_dict.items():
+        artist = key
+        text = value
+        joined_text_list = []
+        for data in text:
+            joined_text = ' '.join(data)
+            joined_text_list.append(joined_text)
+        joined_all = ''.join(joined_text_list)
+        joined_dict[artist] = joined_all
+    return joined_dict
