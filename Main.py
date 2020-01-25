@@ -1,49 +1,64 @@
-import nltk
-from nltk.probability import FreqDist
+from Helpers import DataOperator as cvh
+import networkx as nx
 import matplotlib.pyplot as plt
-from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
-from nltk.tokenize import sent_tokenize, word_tokenize
-from nltk.stem.wordnet import WordNetLemmatizer
+import gensim
+from gensim import corpora
+import string
+import pyLDAvis.gensim
+from Helpers import Zipfs as zs
+
+index_artist = 0
+index_title = 1
+index_link = 2
+index_text = 3
 
 if __name__ == "__main__":
-    text = """Hello Mr. Smith, how are you doing today? The weather is great, and city is awesome.
-    The sky is pinkish-blue. You shouldn't eat cardboard"""
-    tokenized_text = sent_tokenize(text)
-    print(tokenized_text)
-    tokenized_word = word_tokenize(text)
-    print(tokenized_word)
-    fdist = FreqDist(tokenized_word)
-    print(fdist)
-    fdist.most_common(2)
-    fdist.plot(30, cumulative=False)
+    lemmatized_dict1 = cvh.load_object("LemmatizedSongs1.pkl")
+    lemmatized_dict2 = cvh.load_object("LemmatizedSongs2.pkl")
+    lemmatized_dict3 = cvh.load_object("LemmatizedSongs3.pkl")
+    lemmatized_dict4 = cvh.load_object("LemmatizedSongs4.pkl")
+    lemmatized_dict5 = cvh.load_object("LemmatizedSongs5.pkl")
+    lemmatized_dict6 = cvh.load_object("LemmatizedSongs6.pkl")
+    lemmatized_dict7 = cvh.load_object("LemmatizedSongs7.pkl")
+    lemmatized_dict8 = cvh.load_object("LemmatizedSongs8.pkl")
+    lemmatized_dict9 = cvh.load_object("LemmatizedSongs9.pkl")
+    lemmatized_dict10 = cvh.load_object("LemmatizedSongs10.pkl")
+    lemmatized_dict11 = cvh.load_object("LemmatizedSongs11.pkl")
+    lemmatized_dict12 = cvh.load_object("LemmatizedSongs12.pkl")
+    lemmatized_dict13 = cvh.load_object("LemmatizedSongs13.pkl")
+    lemmatized_dict14 = cvh.load_object("LemmatizedSongs14.pkl")
+
+    lemmatized_dicts_list = [
+                            lemmatized_dict1,
+                            lemmatized_dict2,
+                            lemmatized_dict3,
+                            lemmatized_dict4,
+                            lemmatized_dict5,
+                            lemmatized_dict6,
+                            lemmatized_dict7,
+                            lemmatized_dict8,
+                            lemmatized_dict9,
+                            lemmatized_dict10,
+                            lemmatized_dict11,
+                            lemmatized_dict12,
+                            lemmatized_dict13,
+                            lemmatized_dict14
+                            ]
+
+
+    zip = cvh.load_object("MergedZipfs.pkl")
+
+    avg_zip = zs.get_average_zipf_per_artist(zip)
+
+    zip_points = []
+    zip_labels = []
+    x = []
+    for i in range(1, len(avg_zip) - 1):
+        zip_labels.append(avg_zip[i][0])
+        zip_points.append(avg_zip[i][1])
+    for i in range(len(zip_points)):
+        x.append(i)
+
+    plt.scatter(x, zip_points)
+    plt.title("Zipf's law average for all analyzed bands")
     plt.show()
-    stop_words = set(stopwords.words("english"))
-    print(stop_words)
-
-    # removing stopwords
-    # filtered_sent = []
-    # for w in tokenized_sent:
-    #     if w not in stop_words:
-    #         filtered_sent.append(w)
-    # print("Tokenized Sentence:", tokenized_sent)
-    # print("Filterd Sentence:", filtered_sent)
-
-
-    # ps = PorterStemmer()
-    # stemmed_words = []
-    # for w in filtered_sent:
-    #     stemmed_words.append(ps.stem(w))
-    #
-    # print("Filtered Sentence:", filtered_sent)
-    # print("Stemmed Sentence:", stemmed_words)
-
-    lem = WordNetLemmatizer()
-
-    from nltk.stem.porter import PorterStemmer
-
-    stem = PorterStemmer()
-
-    word = "flying"
-    print("Lemmatized Word:", lem.lemmatize(word, "v"))
-    print("Stemmed Word:", stem.stem(word))
