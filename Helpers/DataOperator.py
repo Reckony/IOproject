@@ -11,12 +11,16 @@ from nltk.corpus import wordnet
 import itertools
 import string
 from wordcloud import WordCloud
+import random
+import gensim
+from gensim import corpora
 
 
 index_artist = 0
 index_title = 1
 index_link = 2
 index_text = 3
+NUM_TOPICS = 5
 
 objects_repo_location = "/Users/reckony/Desktop/UGSTUDIA/IOproject/ObjectsRepo/"
 noise1 = ['ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before’,' 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than']
@@ -118,10 +122,7 @@ def lemmatize_dict(tokenized_dict):
 
 
 def get_wordnet_pos(word):
-    """
-    Helper method for lemmatization.
-    Map POS tag to first character lemmatize() accepts
-    """
+
     tag = nltk.pos_tag([word])[0][1][0].upper()
     tag_dict = {"J": wordnet.ADJ,
                 "N": wordnet.NOUN,
@@ -171,9 +172,12 @@ def get_frequency_list(dict_to_get_word_frequency_for_artists):
 def get_cosine_similarity(tokenized_filtered_text1, tokenized_filtered_text2):
     text1 = []
     text2 = []
+    text1_tokenized = word_tokenize(tokenized_filtered_text1)
+    text2_tokenized = word_tokenize(tokenized_filtered_text2)
+    sw = stopwords.words('english')
 
-    text1_set = set(tokenized_filtered_text1)
-    text2_set = set(tokenized_filtered_text2)
+    text1_set = {w for w in text1_tokenized if not w in sw}
+    text2_set = {w for w in text2_tokenized if not w in sw}
 
     rvector = text1_set.union(text2_set)
     for w in rvector:
@@ -263,3 +267,42 @@ def join_text(tokenized_dict):
         joined_all = ''.join(joined_text_list)
         joined_dict[artist] = joined_all
     return joined_dict
+
+
+def find_similar_artists(dict1, dict2):
+    similar_artists = []
+
+    for i in range(10):
+        artist1 = random.choice(list(dict1.keys()))
+        artist2 = random.choice(list(dict2.keys()))
+        songs_text1 = dict1[artist1]
+        songs_text2 = dict2[artist2]
+        cosine = get_cosine_similarity(songs_text1, songs_text2)
+        # if cosine >= 0.5:
+        cosine_info = [artist1, artist2, cosine]
+        # else:
+        #     cosine_info = 0
+        similar_artists.append(cosine_info)
+    return similar_artists
+
+
+def get_main_topics(dict_to_check):
+    topics_dict = {}
+    for key, value in dict_to_check.items():
+        artist = key
+        songs = value
+        songs_topic_list = []
+        for song in songs:
+            song1 = [d.split() for d in song1]
+            dictionary = corpora.Dictionary(song1)
+            corpus = [dictionary.doc2bow(text) for text in song1]
+            ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics=NUM_TOPICS, id2word=dictionary, passes=15)
+            topics = ldamodel.print_topics(num_words=5)
+            songs_topic_list.append(songs.index(song))
+            songs_topic_list.append(topics)
+        topics_dict[artist] = songs_topic_list
+    return topics_dict
+
+
+
+

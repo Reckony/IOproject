@@ -1,0 +1,161 @@
+[['Alphaville', 'Chaka Khan', 0.39570079112149587]
+['Air Supply', 'Bryan White', 0.367522443555081]
+['Arlo Guthrie', 'Chaka Khan', 0.4003174784593227]
+['Arrogant Worms', 'Cat Stevens', 0.351126456983127]
+['Alice Cooper', 'Chicago', 0.3898637277066018]
+['Backstreet Boys', 'Chris Brown', 0.38890976612351286]
+['Alice Cooper', 'Chris Brown', 0.3538759417144149]
+['Avril Lavigne', 'Britney Spears', 0.20515831116857972]
+['Amy Grant', 'Bruno Mars', 0.36266350313253276]
+['Andy Williams', 'Carpenters', 0.38775678420077103]
+['Amy Grant', 'Celine Dion', 0.3587407882443241]
+['Backstreet Boys', 'Bruce Springsteen', 0.38181080287820435]
+['America', 'Carly Simon', 0.4227974303462769]
+['ABBA', 'Cher', 0.43823783364429525]
+['Backstreet Boys', 'Bruno Mars', 0.4299515172784384]
+['Adele', 'Carly Simon', 0.3409001065310249]
+['Allman Brothers Band', 'Chris Rea', 0.3786663979868551]
+['Andy Williams', 'Christina Aguilera', 0.3669128686447089]
+['Air Supply', 'Carpenters', 0.4038045186108083]
+['Alison Krauss', 'Chris Rea', 0.40095773276974395]
+['Adele', 'Chicago', 0.36471791817297083]
+['Andy Williams', 'Cheap Trick', 0.38071215480184967]
+['Andy Williams', 'Chris Brown', 0.3048111208708411]
+['Backstreet Boys', 'Bruce Springsteen', 0.38181080287820435]
+['Alison Krauss', 'Chaka Khan', 0.39955418259425884]
+['Adele', 'Carpenters', 0.3661872065602853]
+['Alan Parsons Project', 'Cat Stevens', 0.3786254340894552]
+['Allman Brothers Band', 'Dusty Springfield', 0.4081591599711289]
+['Avril Lavigne', 'Dolly Parton', 0.40788636409559004]
+['Allman Brothers Band', 'Divine', 0.3687484600342953]
+['Alabama', 'Donna Summer', 0.42115401603946634]
+['Air Supply', 'Elton John', 0.44858182752251]
+['Backstreet Boys', 'Elvis Costello', 0.3624029558052263]
+['Alphaville', 'Elvis Costello', 0.3500357069678091]
+['America', 'Eddie Cochran', 0.40091547753296497]
+['Alphaville', 'Dewa 19', 0.0772855554385385],
+['Alice Cooper', 'Dewa 19', 0.07419403012250152]
+['Ace Of Base', 'Ella Fitzgerald', 0.32256451803309044],
+['Alphaville', 'Don Henley', 0.32799813820678314],
+['Alice In Chains', 'Eddie Cochran', 0.31583448268760245]
+['Alison Krauss', 'Donna Summer', 0.4352927750586121]
+ ['Alan Parsons Project', 'Donna Summer', 0.3920692510499304],
+ ['Andrea Bocelli', 'Drake', 0.17311016652381703]
+ ['Alice Cooper', 'Dire Straits', 0.3001637464534192],
+ ['Amy Grant', 'Drake', 0.3137173271779955]
+['Alice Cooper', 'Donna Summer', 0.3884058623660399]
+['Ariel Rivera', 'Elton John', 0.16553663457500348],
+['ABBA', 'Donna Summer', 0.4383474780058308]
+['Alan Parsons Project', 'Don McLean', 0.3577020505620772],
+['Andrea Bocelli', 'Doris Day', 0.2249960938517223]
+ ['Backstreet Boys', 'Divine', 0.3713482292796918],
+ ['America', 'Devo', 0.34910163735102984]
+ ['Backstreet Boys', 'Dire Straits', 0.32442572583358653]
+ ['Alice Cooper', 'Diana Ross', 0.3590659111686129],
+ ['Alphaville', 'Dewa 19', 0.0772855554385385]
+  ['Air Supply', 'Dewa 19', 0.07746883977784312],
+  ['Andy Williams', 'Def Leppard', 0.32444585650448055]
+  ['Ace Of Base', 'Electric Light Orchestra', 0.3441211883733731],
+  ['Adele', 'Don Henley', 0.3637637405237136]
+  ['Aerosmith', 'Electric Light Orchestra', 0.35624773267637666],
+  ['Aled Jones', 'Divine', 0.160103719814893]
+  ['Alice In Chains', 'Deep Purple', 0.3463823054325857],
+  ['Alison Krauss', 'Don Moen', 0.31543481113505667]
+   ['Ariana Grande', 'Devo', 0.3186272406602155],
+    ['Aled Jones', 'Drake', 0.1128754817479469]
+    ['Andy Williams', 'Drake', 0.28877956757800455],
+     ['Alice In Chains', 'Divine', 0.33302164057216116]
+    ['Aerosmith', 'Doobie Brothers', 0.35595547744075035]
+     ['America', 'Elton John', 0.4161540679193605]
+['Alan Parsons Project', 'Dolly Parton', 0.3548867160772459],
+['Alphaville', 'Ed Sheeran', 0.31398730547799764]
+['Aiza Seguerra', 'Ed Sheeran', 0.26455731495343404]
+['Andy Williams', 'Deep Purple', 0.38140120768952784],
+['Adam Sandler', 'Elton John', 0.2645410123141884]
+['Aiza Seguerra', 'Elvis Costello', 0.1976646760665834],
+['Andrea Bocelli', 'Doobie Brothers', 0.25348217123209543]
+ ['Backstreet Boys', 'Elton John', 0.3930830519295963],
+ ['Aerosmith', 'Diana Ross', 0.37078498663246834]
+ ['Annie', 'Dolly Parton', 0.22156617112447785],
+ ['Amy Grant', 'Dolly Parton', 0.39902116998205817]
+ ['Backstreet Boys', 'Electric Light Orchestra', 0.39391525836051433],
+  ['Alabama', 'Ellie Goulding', 0.35651064027407714],
+  ['Alan Parsons Project', 'Elvis Costello', 0.3291108341108091],
+  ['Arrogant Worms', 'Drake', 0.32779226239351145],
+  ['Alice Cooper', 'Deep Purple', 0.344048959102661],
+  ['Alan Parsons Project', 'Eddie Cochran', 0.3288817168030759],
+  ['Aled Jones', 'Don Moen', 0.17085923359746266],
+  ['Alan Parsons Project', 'Ed Sheeran', 0.3165532798072773]]
+['Annie', 'Devo', 0.24663038337361556],
+['Arrogant Worms', 'Elton John', 0.34493454570104515],
+ ['Adele', 'Doris Day', 0.3186478699269337],
+ ['Backstreet Boys', 'Eagles', 0.3907970446370947],
+ ['Andrea Bocelli', 'Don Moen', 0.20027410819313393],
+ ['Ariel Rivera', 'Elton John', 0.16553663457500348],
+ ['Alabama', 'Electric Light Orchestra', 0.4045022867386685],
+ ['Backstreet Boys', 'Doors', 0.33929081806647743],
+ ['Alice Cooper', 'Depeche Mode', 0.3440974523766097],
+  ['Alabama', 'Def Leppard', 0.3765843042718631]]
+['Chaka Khan', 'Don Henley', 0.33949395573803887],
+['Cat Stevens', 'Dire Straits', 0.32585553264263534],
+['Bruno Mars', 'Devo', 0.3567541108454654],
+['Bryan White', 'Demi Lovato', 0.3330068448639157],
+['Carly Simon', 'Ellie Goulding', 0.37697321762846675],
+ ['Christy Moore', 'Doors', 0.23553637314317968],
+ ['Carol Banawa', 'Deep Purple', 0.23463206671619574],
+ ['Cake', 'Devo', 0.3194329608789772],
+ ['Carpenters', 'Dire Straits', 0.3061194779976536],
+ ['Britney Spears', 'Dolly Parton', 0.17936250429918812],
+  ['Cher', 'Eddie Cochran', 0.40129061262392585],
+   ['Chaka Khan', 'Elton John', 0.4174815052908024],
+   ['Celine Dion', 'Deep Purple', 0.34795914389617827],
+   ['Carpenters', 'Doors', 0.3416345218709165],
+   ['Bryan White', 'Dolly Parton', 0.3302850674126507],
+    ['Christina Perri', 'Eagles', 0.38389379425291],
+     ['Celine Dion', 'Dewa 19', 0.06989344118289811],
+['Christy Moore', 'Electric Light Orchestra', 0.24671224176271647],
+ ['Cake', 'Deep Purple', 0.353068308343936],
+ ['Cat Stevens', 'Ella Fitzgerald', 0.3737059014155992],
+  ['Chicago', 'Diana Ross', 0.4248375097829099],
+   ['Carol Banawa', 'Doris Day', 0.22984957865905362],
+['Carly Simon', 'Depeche Mode', 0.39138640370307054],
+['Chicago', 'Deep Purple', 0.38550671257253843],
+['Christmas Songs', 'Dolly Parton', 0.35412810152467794],
+['Bruce Springsteen', 'Dewa 19', 0.06384087850287462],
+[['Carly Simon', 'Dream Theater', 0.383956911861915],
+['Carly Simon', 'Doobie Brothers', 0.3765154092356216],
+['Cake', 'Drake', 0.2989220552111015],
+ ['Cheap Trick', 'Dream Theater', 0.3913331202603167],
+ ['Carol Banawa', 'Dewa 19', 0.1174313903400205],
+ ['Children', 'Demi Lovato', 0.29410629162159524],
+ ['Carol Banawa', 'Diana Ross', 0.24373639721960233],
+ ['Bryan White', 'Ella Fitzgerald', 0.32026910361626365],
+ ['Celine Dion', 'Drake', 0.30378395688455867]
+ ['Chris Rea', 'Dire Straits', 0.33352627769937265],
+ ['Christina Aguilera', 'Def Leppard', 0.403941506401122],
+ ['Celine Dion', 'Elton John', 0.3524162756458454],
+ ['Bruno Mars', 'Deep Purple', 0.3888537246849914],
+ ['Cat Stevens', 'Eagles', 0.3796039030523292],
+ ['Chris Rea', 'Donna Summer', 0.43085042019918135],
+ ['Christy Moore', 'Don Moen', 0.2003147178272615],
+ ['Carly Simon', 'Electric Light Orchestra', 0.3862969901236941],
+ ['Cat Stevens', 'Drake', 0.3512764624691228],
+ ['Chaka Khan', 'Don Moen', 0.2692704825552637]
+ ['Christmas Songs', 'Doobie Brothers', 0.3313571988806559],
+ ['Cher', 'Def Leppard', 0.40463097542051674],
+ ['Carly Simon', 'Diana Ross', 0.41671313714639036],
+ ['Chaka Khan', 'Depeche Mode', 0.394937721360622],
+ ['Bruce Springsteen', 'Def Leppard', 0.3784834393928061],
+ ['Cher', 'Eddie Cochran', 0.40129061262392585],
+ ['Carpenters', 'Dewa 19', 0.08403177325195772],
+ ['Bruce Springsteen', 'Eagles', 0.34622730640797195],
+ ['Bryan White', 'artist', 0.0],
+ ['Carpenters', 'Doobie Brothers', 0.3676577601171536]]]
+
+
+
+
+
+
+
+

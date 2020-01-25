@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1319b8a-f475-4f01-bf4e-8d1d7b6283b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Helpers/Zipfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Wordclouds/topics.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosine.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Datasets/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Helpers/DataOperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/DataOperator.py" afterDir="false" />
     </list>
@@ -16,8 +20,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Datasets/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="231" selection-start-line="231" selection-end-line="231" />
+            <state relative-caret-position="7344">
+              <caret line="459" lean-forward="true" selection-start-line="459" selection-end-line="459" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Wordclouds/topics.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
         </entry>
@@ -25,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Helpers/DataOperator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="240" column="20" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
+            <state relative-caret-position="330">
+              <caret line="294" column="26" selection-start-line="294" selection-start-column="26" selection-end-line="294" selection-end-column="26" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -66,14 +82,18 @@
         <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs10.pkl" />
         <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs9.pkl" />
         <option value="$PROJECT_DIR$/ObjectsRepo/FilteredSongs8.pkl" />
+        <option value="$PROJECT_DIR$/cosine.txt" />
+        <option value="/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyLDAvis/_prepare.py" />
+        <option value="$PROJECT_DIR$/Helpers/Zipfs.py" />
         <option value="$PROJECT_DIR$/Datasets/Main.py" />
+        <option value="$PROJECT_DIR$/Wordclouds/topics.txt" />
         <option value="$PROJECT_DIR$/Helpers/DataOperator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="34" />
+    <option name="x" value="78" />
+    <option name="y" value="55" />
     <option name="width" value="1345" />
     <option name="height" value="789" />
   </component>
@@ -89,6 +109,16 @@
             <path>
               <item name="IOproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="IOproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IOproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IOproject" type="462c0819:PsiDirectoryNode" />
+              <item name="ObjectsRepo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IOproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IOproject" type="462c0819:PsiDirectoryNode" />
+              <item name="Wordclouds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IOproject" type="b2602c69:ProjectViewProjectNode" />
@@ -214,21 +244,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="34" width="1345" height="789" extended-state="0" />
+    <frame x="78" y="55" width="1345" height="789" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25981873" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25981873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34146342" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.113342896" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.58536583" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.12625538" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.15781923" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -237,21 +267,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ObjectsRepo/SongsDict9.pkl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ObjectsRepo/SongsDict10.pkl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ObjectsRepo/SongsDict11.pkl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ObjectsRepo/SongsDict12.pkl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ObjectsRepo/SongsDict13.pkl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ObjectsRepo/SongsDict15.pkl" />
     <entry file="file://$PROJECT_DIR$/ObjectsRepo/SongsDict1.pkl">
       <provider selected="true" editor-type-id="text-editor" />
@@ -326,15 +341,9 @@
     <entry file="file://$PROJECT_DIR$/ObjectsRepo/CombinedSongs1.pkl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordcloudsWordcloud_ABBA.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WordcloudsWordcloud_Ace Of Base.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WordcloudsWordcloud_Aerosmith.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/WordcloudsWordcloud_ABBA.png" />
+    <entry file="file://$PROJECT_DIR$/WordcloudsWordcloud_Ace Of Base.png" />
+    <entry file="file://$PROJECT_DIR$/WordcloudsWordcloud_Aerosmith.png" />
     <entry file="file://$PROJECT_DIR$/Wordclouds/Wordcloud_Adam Sandler.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -371,9 +380,6 @@
     <entry file="file://$PROJECT_DIR$/Wordclouds/Wordcloud_Deep Purple.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wordclouds/Wordcloud_The Beatles.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Wordclouds/Wordcloud_Guns N' Roses.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -389,17 +395,54 @@
     <entry file="file://$PROJECT_DIR$/Wordclouds/Wordcloud_Miley Cyrus.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/cosine.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyLDAvis/_prepare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="256" column="69" selection-start-line="256" selection-start-column="69" selection-end-line="256" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helpers/Zipfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="811">
+          <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wordclouds/Wordcloud_The Beatles.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wordclouds/Wordcloud_Michael Jackson.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wordclouds/topics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Datasets/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        <state relative-caret-position="7344">
+          <caret line="459" lean-forward="true" selection-start-line="459" selection-end-line="459" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Helpers/DataOperator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="240" column="20" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
+        <state relative-caret-position="330">
+          <caret line="294" column="26" selection-start-line="294" selection-start-column="26" selection-end-line="294" selection-end-column="26" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
