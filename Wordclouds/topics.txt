@@ -1,0 +1,123 @@
+Foo Fighters:
+
+(0, '0.237*"next" + 0.120*"let" + 0.104*"keepin" + 0.053*"closer" + 0.053*"another"')
+(4, '0.152*"weight" + 0.152*"love" + 0.103*"life" + 0.054*"satisfies" + 0.054*"day"')  All my life
+
+(0, '0.155*"feel" + 0.119*"good" + 0.081*"alone" + 0.081*"easy" + 0.044*"along"')
+(4, '0.100*"want" + 0.055*"ever" + 0.055*"\'s" + 0.055*"listen" + 0.055*"dream"') Alone easy target
+
+(0, '0.199*"yeah" + 0.199*"remember" + 0.134*"star" + 0.070*"else" + 0.038*"last"')
+(1, '0.122*"sun" + 0.122*"spin" + 0.122*"around" + 0.084*"one" + 0.084*"believe"')
+(2, '0.285*"aurora" + 0.127*"time" + 0.127*"take" + 0.087*"kinda" + 0.048*"see"')
+(3, '0.210*"back" + 0.210*"turn" + 0.181*"hell" + 0.035*"hole" + 0.035*"relieve"')
+(4, '0.349*"come" + 0.178*"\'s" + 0.075*"wait" + 0.041*"somewhere" + 0.041*"die"')] Aurora
+
+(0, '0.096*"save" + 0.096*"flame" + 0.096*"calling" + 0.096*"sun" + 0.052*"ember"')
+(2, '0.659*"burn" + 0.038*"hardest" + 0.038*"waiting" + 0.021*"die" + 0.021*"old"'),
+(3, '0.293*"never" + 0.150*"breathe" + 0.079*"tonight" + 0.043*"know" + 0.043*"wait"')
+(4, '0.191*"beyond" + 0.100*"go" + 0.100*"part" + 0.055*"lifetime" + 0.055*"superstition"') Burn away
+
+(0, '0.091*"carry" + 0.063*"say" + 0.063*"voice" + 0.034*"remember" + 0.034*"rest"')
+(1, '0.110*"hear" + 0.076*"still" + 0.041*"emotion" + 0.041*"season" + 0.041*"confusion"')
+(2, '0.073*"high" + 0.040*"wait" + 0.040*"event" + 0.040*"stormy" + 0.040*"wind"') Carry on my wayward son
+
+Foreigner:
+
+(3, '0.405*"love" + 0.067*"tonight" + 0.051*"get" + 0.035*"stay" + 0.035*"one"')
+(4, '0.110*"know" + 0.075*"heart" + 0.075*"maybe"+ 0.057*"go"') Down on love
+
+(0, '0.247*"first" + 0.110*"door" + 0.075*"woman" + 0.041*"make"
+(2, '0.362*"like" + 0.113*"know" + 0.078*"feels" + 0.075*"maybe" + 0.043*"across"') Feels like the first time
+
+(1, '0.112*"growing" + 0.090*"know" + 0.047*"world" + 0.047*"back" + 0.047*"nothing"')
+(3, '0.435*"way" + 0.076*"every" + 0.075*"trouble" + 0.058*"come" + 0.057*"care"')
+(4, '0.165*"grow" + 0.096*"day" + 0.073*"life" + 0.073*"yeah" + 0.050*"straight"') Growing up the hard way
+
+Foreigner, Mointain of love:
+
+('0.161*"honey" + 0.057*"touch" + 0.057*"baby" + 0.055*"feel" + 0.031*"pretendin"')
+('0.139*"high" + 0.095*"little" + 0.072*"build" + 0.050*"edge" + 0.050*"\'cause"')
+('0.268*"love" + 0.255*"mountain" + 0.056*"climb" + 0.042*"risin"+ 0.068*"good")
+
+
+Gloria Estefan:
+
+(0, 0.221*"fall" + 0.130*"little" + 0.058*"catch" + 0.056*"heart" + 0.022*"suddenly"')
+(1, '0.167*"think" + 0.086*"fair" + 0.086*"bring" + 0.059*"feel" + 0.032*"surprised"')
+(2, '0.199*"need" + 0.078*"yes" + 0.078*"attention" + 0.029*"go" + 0.029*"undertow"') A little push
+
+(0, '0.241*"love" + 0.156*"baby" + 0.139*"come" + 0.088*"yes" + 0.037*"certain"')
+(1, '0.168*"along" + 0.127*"oh" + 0.127*"thula" + 0.066*"show" + 0.045*"angel"')
+(2, '0.257*"teach" + 0.089*"sent" + 0.089*"sana" + 0.089*"one" + 0.061*"thought"')
+(3, '0.240*"know" + 0.124*"knew" + 0.047*"apart" + 0.047*"live" + 0.047*"look"') Along came you
+
+(0, '0.161*"get" + 0.161*"make" + 0.161*"ring" + 0.123*"feelin" + 0.085*"would"')
+(1, '0.100*"drive" + 0.100*"right" + 0.100*"heart" + 0.100*"oh" + 0.100*"phone"')
+(2, '0.641*"boy" + 0.107*"nothin" + 0.072*"good" + 0.038*"go" + 0.021*"night"'),
+(3, '0.632*"bad" + 0.052*"breathless" + 0.052*"gettin" + 0.052*"always" + 0.052*"restless"') Bad boy
+
+Glee:
+
+(1, '0.193*"house" + 0.081*"even" + 0.081*"end" + 0.044*"call" + 0.044*"appear"'),
+0.116*"turn" + 0.063*"darling" + 0.063*"love" + 0.063*"broken"'),
+'0.152*"home" + 0.152*"chair" + 0.057*"meant" + 0.057*"crazy" + 0.057*"let"')
+(4, '0.123*"still" + 0.123*"room" + 0.085*"apart" + 0.085*"heart" + 0.046*"game"') A house is not a home
+
+('0.087*"everything" + 0.087*"\'m" + 0.067*"make" + 0.067*"magic" + 0.046*"conversation"')
+('0.108*"say" + 0.087*"morning" + 0.087*"know" + 0.046*"ever"+ 0.027*"missed"')
+('0.095*"goodbye" + 0.095*"never" + 0.073*"madness" + 0.050*"way" + 0.027*"missed"') As if we never said goodbye
+
+(0, '0.175*"directions" + 0.092*"love" + 0.092*"kitty" + 0.050*"baby" + 0.050*"bed"')
+(2, '0.208*"lord" + 0.088*"sky" + 0.088*"stay" + 0.048*"morning" + 0.048*"cattle"')
+(3, '0.140*"new" + 0.107*"little" + 0.073*"look" + 0.040*"head" + 0.040*"hay"')  Away in a manger
+
+
+(0, '0.143*"craving" + 0.078*"leads" + 0.078*"even" + 0.078*"\'s" + 0.078*"truth"'),
+'0.389*"always" + 0.206*"constant" + 0.206*"crave" + 0.045*"aha" + 0.024*"soul"'),
+0.115*"youth" + 0.115*"phase" + 0.115*"towards" + 0.115*"skin" + 0.115*"magnet"') Constant craving
+
+(0, '0.356*"cool" + 0.096*"easy" + 0.096*"loose" + 0.096*"breeze" + 0.052*"take"'),
+(1, '0.169*"got" + 0.092*"school" + 0.092*"coolie" + 0.092*"like" + 0.092*"high"')
+(3, '0.423*"boy" + 0.121*"crazy" + 0.051*"buzz" + 0.051*"get" + 0.051*"turn"') Cool
+
+
+
+Foreigner, Mointain of love:
+
+('0.161*"honey" + 0.057*"touch" + 0.057*"baby" + 0.055*"feel" + 0.031*"pretendin"')
+('0.139*"high" + 0.095*"little" + 0.072*"build" + 0.050*"edge" + 0.050*"\'cause"')
+('0.268*"love" + 0.255*"mountain" + 0.056*"climb" + 0.042*"risin"+ 0.068*"good")
+
+
+Gloria Estefan, Along came you:
+
+('0.241*"love" + 0.156*"baby" + 0.139*"come" + 0.088*"yes" + 0.037*"certain"')
+('0.168*"along" + 0.127*"oh" + 0.127*"thula" + 0.066*"show" + 0.045*"angel"')
+('0.240*"know" + 0.124*"knew" + 0.047*"apart" + 0.047*"live" + 0.047*"look"')
+
+
+Glee, Away in a manger
+('0.175*"directions" + 0.092*"love" + 0.092*"kitty" + 0.050*"baby" + 0.050*"bed"')
+('0.208*"lord" + 0.088*"sky" + 0.088*"stay" + 0.048*"morning" + 0.048*"cattle"')
+('0.140*"new" + 0.107*"little" + 0.073*"look" + 0.040*"head" + 0.040*"hay"')
+
+
+
+
+
+Gloria Estefan, Bad Boy:
+
+('0.100*"drive" + 0.100*"right" + 0.100*"heart" + 0.100*"oh" + 0.100*"phone"')
+('0.641*"boy" + 0.107*"nothin" + 0.072*"good" + 0.038*"go" + 0.021*"night"'),
+('0.632*"bad" + 0.052*"breathless" + 0.052*"gettin" + 0.052*"always" + 0.052*"restless"')
+
+
+Glee, Cool:
+
+('0.356*"cool" + 0.096*"easy" + 0.096*"loose" + 0.096*"breeze" + 0.052*"take"'),
+('0.169*"got" + 0.092*"school" + 0.092*"coolie" + 0.092*"like" + 0.092*"high"')
+('0.423*"boy" + 0.121*"crazy" + 0.051*"buzz" + 0.051*"get" + 0.051*"turn"')
+
+
+
+
