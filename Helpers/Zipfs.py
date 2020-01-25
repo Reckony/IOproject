@@ -64,3 +64,41 @@ def print_zipf_table(zipf_table):
                                    item["difference_percent"]))
 
     print("-" * width)
+
+
+def get_average_zipf_per_artist(zipfs_dict):
+    diff_list = []
+    for key, value in zipfs_dict.items():
+        artist = key
+        zipfs_table = value
+        zipfs_average_values = []
+        av = []
+        for row_list in zipfs_table:
+            diff_row_list = []
+            for dict_row in row_list:
+                diff = dict_row["difference_actual"]
+                diff_row_list.append(diff)
+            diff_row = sum(diff_row_list) / len(diff_row_list)
+            av.append(diff_row)
+        average_difference = sum(av) / len(av)
+        zipfs_average_values.append(average_difference)
+        overall_average = sum(zipfs_average_values) / len(zipfs_average_values)
+        diff_info = (artist, overall_average)
+        diff_list.append(diff_info)
+    return diff_list
+
+
+def create_zip_table_for_dict(dict):
+    zip_dict = {}
+    for key, value in dict.items():
+        zip_table_list = []
+        artist = key
+        songs = value
+        for song in songs:
+            song = [w.lower() for w in song]
+            song = [w for w in song if len(w) > 3]
+            song = " ".join(song)
+            zipfs_table = generate_zipf_table(song, 50)
+            zip_table_list.append(zipfs_table)
+        zip_dict[artist] = zip_table_list
+    return zip_dict
